@@ -10,12 +10,12 @@ namespace UnityPolymorphism
             Debug.Log("1st Apple Constructor Called");
         }
 
-        public new void Chop()
+        new public void Chop()
         {
             Debug.Log("The apple has been chopped.");
         }
 
-        public new void SayHello()
+        new public void SayHello()
         {
             Debug.Log("Hello, I am an apple.");
         }
